@@ -13,7 +13,7 @@ public class aluno {
     }
 
     void semAtividade( int menosPonto){
-        media+=menosPonto;
+        media-=menosPonto;
     }
 
 
