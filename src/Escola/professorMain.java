@@ -15,7 +15,6 @@ public class professorMain {
       System.out.println(professor1.nome + " bateu o ponto de entrada às " + professor1.horarioEntrada +
                " e o ponto de saida às " + professor1.horarioSaida);
 
-      //professor1.horasTrabalhadas= professor1.horarioSaida - professor1.horarioEntrada;
 
     if(professor1.horarioEntrada<=17.9) {
         System.out.println("Chegou cedo hoje professor");
@@ -24,8 +23,6 @@ public class professorMain {
     }else{
         System.out.println("chegou na hora!");
         }
-
-
 
 
 

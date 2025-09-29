@@ -2,7 +2,6 @@ package Escola;
 
 public class Professor {
 
-    //atributos do professor
 
     String nome;
     double salario;
@@ -12,8 +11,6 @@ public class Professor {
     double horasTrabalhadas;
 
 
-
-    //construtor
 public Professor (String nome, double salario, int cadeiras){
     this.nome = nome;
     this.salario = salario;
