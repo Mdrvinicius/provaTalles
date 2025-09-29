@@ -10,13 +10,25 @@ public class professorMain {
 
 
        professor1.baterEntrada(18.00);
-       professor1.baterSaida(22.00);
+       professor1.baterSaida(24.00);
 
       System.out.println(professor1.nome + " bateu o ponto de entrada às " + professor1.horarioEntrada +
                " e o ponto de saida às " + professor1.horarioSaida);
+
+      professor1.horasTrabalhadas= professor1.horarioSaida - professor1.horarioEntrada;
+
+    if(professor1.horasTrabalhadas>=5) {
+        System.out.println("o professor merece um descanso");
+    }else{
+        System.out.println ("o total de horas trabalhadas está correto");
+    }
+
+
+
 
 
 
 
     }
+
 }
