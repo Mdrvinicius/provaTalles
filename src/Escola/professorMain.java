@@ -24,8 +24,6 @@ public class professorMain {
         System.out.println("chegou na hora!");
         }
 
-
-
     }
 
 }

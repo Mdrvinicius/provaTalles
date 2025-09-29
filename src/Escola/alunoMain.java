@@ -18,7 +18,7 @@ public class alunoMain {
        aluno1.semAtividade(3);
 
 
-       System.out.println("Porém  "  + aluno1.nome + " tem os pontos de atividade a serem atribuidos ou retirado e " +
+       System.out.println("Porém  "  + aluno1.nome + " tem os pontos de atividade a serem atribuídos ou retirado e " +
                    "a sua media fica " + aluno1.media  );
 
         if (aluno1.media >= 6) {

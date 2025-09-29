@@ -31,7 +31,7 @@ public class financeiroMain {
     public static void main(String[] args) {
         Financeiro meuFinanceiro = new Financeiro();
         meuFinanceiro.setMensalidade(1200.00);
-        System.out.println("Mensalidade cadastrada: R$" + meuFinanceiro.getMensalidade());
+        System.out.println("Mensalidade pendente de: R$" + meuFinanceiro.getMensalidade());
         meuFinanceiro.pagarMensalidade(1200.00);
 
     }
