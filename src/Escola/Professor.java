@@ -9,6 +9,7 @@ public class Professor {
     int cadeiras;
     double horarioEntrada;
     double horarioSaida;
+    double horasTrabalhadas;
 
 
 
